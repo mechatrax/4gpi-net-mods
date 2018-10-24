@@ -1,0 +1,16 @@
+Source: 4gpi-net-mods
+Section: net
+Priority: optional
+Maintainer: Masahiro Honda <honda@mechatrax.com>
+Build-Depends: debhelper (>= 10), bash-completion
+Standards-Version: 3.9.8
+Vcs-Git: https://github.com/mechatrax/4gpi-net-mods.git
+Vcs-browser: https://github.com/mechatrax/4gpi-net-mods
+Homepage: https://www.mechatrax.com/
+
+Package: 4gpi-net-mods
+Architecture: all
+Depends: ${misc:Depends}, raspi-config (>= 20160527)
+Description: Network configuration for 4GPi
+ This package contains network configuration files for 4GPi
+
