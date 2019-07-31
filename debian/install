@@ -1,1 +1,2 @@
 ./ignore-wwan.conf /etc/systemd/system/dhcpcd.service.d/
+./97-net-4gpi.conf /etc/sysctl.d/
