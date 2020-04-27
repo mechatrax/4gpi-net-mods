@@ -1,3 +1,9 @@
+4gpi-net-mods (1.2.0) buster; urgency=medium
+
+  * Enable smart MTU black hole detection
+
+ -- Masahiro Honda <honda@mechatrax.com>  Mon, 23 Mar 2020 19:09:52 +0900
+
 4gpi-net-mods (1.1.0) buster; urgency=medium
 
   * Add sysctl configuration file
