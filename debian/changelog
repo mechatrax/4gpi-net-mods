@@ -4,8 +4,10 @@
   * debian/control
     - Change Build-Depends to debhelper-compat from debhelper
     - Bump Standards-Version to 4.5.1
+  * ignore-wwan.conf
+    - Change dhcpcd path
 
- -- Yuta Kiyonaga <kiyonaga@mechatrax.com>  Tue, 20 Jul 2021 07:31:58 +0000
+ -- Yuta Kiyonaga <kiyonaga@mechatrax.com>  Wed, 24 Nov 2021 09:54:11 +0000
 
 4gpi-net-mods (1.3.0) buster; urgency=medium
 
