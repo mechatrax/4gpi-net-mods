@@ -1,2 +1,5 @@
 ./ignore-wwan.conf /etc/systemd/system/dhcpcd.service.d/
 ./97-net-4gpi.conf /etc/sysctl.d/
+./00-eth0-manual.conf /etc/network/interfaces.d/
+./00-wlan0-manual.conf /etc/network/interfaces.d/
+./00-wlan1-manual.conf /etc/network/interfaces.d/
