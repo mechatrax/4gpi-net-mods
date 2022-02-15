@@ -6,8 +6,17 @@
 ## 提供ファイル
 次のファイルがパッケージに含まれています。
 
+### /etc/network/interfaces.d/00-eth0-manual.conf
+NetworkManager インストール時に dhcpcd による eth0 の管理を行うための設定ファイルです。
+
+### /etc/network/interfaces.d/00-wlan0-manual.conf
+NetworkManager インストール時に dhcpcd による wlan0 の管理を行うための設定ファイルです。
+
+### /etc/network/interfaces.d/00-wlan1-manual.conf
+NetworkManager インストール時に dhcpcd による wlan1 の管理を行うための設定ファイルです。
+
 ### /etc/sysctl.d/97-net-4gpi.conf
-4GPi を使用するために カーネルパラメータ の値を変更するファイルです。
+4GPi を使用するためにカーネルパラメータの値を変更するファイルです。
 
 ### /etc/systemd/system/dhcpcd.service.d/ignore-wwan.conf
 4GPi を使用するために dhcpcd の設定を変更するファイルです。
