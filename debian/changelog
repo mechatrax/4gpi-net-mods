@@ -1,3 +1,9 @@
+4gpi-net-mods (1.5.0) bullseye; urgency=medium
+
+  * Fix network configration files
+
+ -- Yuta Kiyonaga <kiyonaga@mechatrax.com>  Mon, 21 Feb 2022 14:45:28 +0900
+
 4gpi-net-mods (1.4.0) bullseye; urgency=medium
 
   * Add network configuration files
