@@ -8,9 +8,9 @@ if [ -d /run/systemd/system ]; then
     systemctl --system daemon-reload >/dev/null || true
 fi
 
-if deb-systemd-helper --quiet debian-installed dhcpcd.service \
-  && deb-systemd-helper --quiet is-enabled dhcpcd.service; then
-    deb-systemd-invoke restart dhcpcd.service >/dev/null || true
+if deb-systemd-helper --quiet debian-installed NetworkManager.service \
+  && deb-systemd-helper --quiet is-enabled NetworkManager.service; then
+    deb-systemd-invoke restart NetworkManager.service >/dev/null || true
 fi
 
 #DEBHELPER#
