@@ -1,0 +1,4 @@
+rm_conffile /etc/network/interfaces.d/00-eth0-manual.conf 1.5.1~
+rm_conffile /etc/network/interfaces.d/00-wlan0-manual.conf 1.5.1~
+rm_conffile /etc/network/interfaces.d/00-wlan1-manual.conf 1.5.1~
+rm_conffile /etc/systemd/system/dhcpcd.service.d/ignore-wwan.conf 1.5.1~
