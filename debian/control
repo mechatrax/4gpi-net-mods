@@ -2,8 +2,9 @@ Source: 4gpi-net-mods
 Section: net
 Priority: optional
 Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
+Uploaders: Masahiro Honda <honda@mechatrax.com>
 Build-Depends: debhelper-compat (= 12), bash-completion
-Standards-Version: 4.5.1
+Standards-Version: 4.6.2
 Vcs-Git: https://github.com/mechatrax/4gpi-net-mods.git
 Vcs-browser: https://github.com/mechatrax/4gpi-net-mods
 Homepage: https://mechatrax.com/
