@@ -1,3 +1,9 @@
+4gpi-net-mods (1.5.2.1) bookworm; urgency=medium
+
+  * debian/copyright: Update contact information
+
+ -- Yuta Kiyonaga <kiyonaga@mechatrax.com>  Fri, 08 Dec 2023 11:45:48 +0900
+
 4gpi-net-mods (1.5.2) bookworm; urgency=medium
 
   * 97-net-4gpi.conf
