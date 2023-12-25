@@ -2,8 +2,6 @@
 
 set -e
 
-raspi-config nonint do_boot_wait 1 >/dev/null || true
-
 if [ -d /run/systemd/system ]; then
     systemctl --system daemon-reload >/dev/null || true
 fi
